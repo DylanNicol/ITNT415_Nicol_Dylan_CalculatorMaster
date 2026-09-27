@@ -1,7 +1,7 @@
 # Calculator Master
 
 ## Student Name
-Andre Montoya
+Dylan Paulo F. Nicol
 
 ## Course and Section
 ITNT415 - [BIT42]
