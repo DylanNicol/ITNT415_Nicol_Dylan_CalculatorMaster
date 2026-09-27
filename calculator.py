@@ -18,6 +18,10 @@ def add(a, b):
     """Return the sum of a and b."""
     return a + b
 
+def subtract(a, b):
+    """Return the difference of a and b."""
+    return a - b
+
 def main():
     while True:
         print_menu()
@@ -30,6 +34,11 @@ def main():
             num2 = get_number("Enter the second number: ")
             result = add(num1, num2)
             print(f"Result: {num1} + {num2} = {result}")
+        if choice == "2":
+            num1 = get_number("Enter the first number: ")
+            num2 = get_number("Enter the second number: ")
+            result = subtract(num1, num2)
+            print(f"Result: {num1} - {num2} = {result}")
 
         if choice not in {"1", "2", "3", "4"}:
             print("Invalid option. Please choose a number between 1 and 5.")
